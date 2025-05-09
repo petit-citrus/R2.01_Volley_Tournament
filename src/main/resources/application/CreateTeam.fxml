@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml" fx:controller="application.CreateTeamController">
+    <Label text="Create a Team"/>
+    <TextField fx:id="teamNameField" promptText="Team Name"/>
+    <TextField fx:id="nameField" promptText="Your Name"/>
+    <TextField fx:id="firstNameField" promptText="Your First Name"/>
+    <TextField fx:id="emailField" promptText="Your Email"/>
+    <TextField fx:id="phoneField" promptText="Your Phone"/>
+    <Button text="Create" onAction="#handleCreate"/>
+    <Label fx:id="messageLabel"/>
+</VBox>

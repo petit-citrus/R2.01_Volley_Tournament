@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml" fx:controller="application.ObservationController">
+    <Label text="Tournament Overview"/>
+    <ComboBox fx:id="tournamentCombo"/>
+    <TableView fx:id="teamsTable">
+        <columns>
+            <TableColumn text="Team Name" fx:id="teamNameColumn"/>
+            <TableColumn text="Captain" fx:id="captainColumn"/>
+            <TableColumn text="Players" fx:id="playersColumn"/>
+        </columns>
+    </TableView>
+    <Label fx:id="messageLabel"/>
+</VBox>
