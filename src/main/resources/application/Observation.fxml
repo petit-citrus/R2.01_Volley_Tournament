@@ -9,6 +9,7 @@
             <TableColumn text="Team Name" fx:id="teamNameColumn"/>
             <TableColumn text="Captain" fx:id="captainColumn"/>
             <TableColumn text="Players" fx:id="playersColumn"/>
+            <TableColumn text="Player Count" fx:id="playerCountColumn"/>
         </columns>
     </TableView>
     <Label fx:id="messageLabel"/>
